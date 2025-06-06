@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mydb1
+  description: Python app that displays time - named mydb1
+  annotations:
+    github.com/project-slug: test-backstage6/mydb1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
