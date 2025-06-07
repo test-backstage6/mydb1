@@ -6,6 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: test-backstage6/mydb1
     backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: service
   owner: development
